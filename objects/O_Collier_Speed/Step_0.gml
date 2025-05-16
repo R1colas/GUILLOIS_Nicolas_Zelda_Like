@@ -1,0 +1,20 @@
+/// @DnDAction : YoYo Games.Common.If_Variable
+/// @DnDVersion : 1
+/// @DnDHash : 60A35988
+/// @DnDArgument : "var" "isequipped"
+/// @DnDArgument : "value" "true"
+if(isequipped == true){	/// @DnDAction : YoYo Games.Instances.Sprite_Scale
+	/// @DnDVersion : 1
+	/// @DnDHash : 31706CBD
+	/// @DnDParent : 60A35988
+	/// @DnDArgument : "xscale" "2"
+	/// @DnDArgument : "yscale" "2"
+	image_xscale = 2;image_yscale = 2;
+
+	/// @DnDAction : YoYo Games.Movement.Jump_To_Point
+	/// @DnDVersion : 1
+	/// @DnDHash : 4A427D7A
+	/// @DnDParent : 60A35988
+	/// @DnDArgument : "x" "O_Hero.x-1900"
+	/// @DnDArgument : "y" "O_Hero.y+950"
+	x = O_Hero.x-1900;y = O_Hero.y+950;}
